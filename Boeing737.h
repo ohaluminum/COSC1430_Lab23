@@ -1,7 +1,6 @@
-
 #pragma once
 
-//FIX ME: include FlightComputer header
+#include "FlightComputer.h"
 
 #include <string>
 using namespace std;
