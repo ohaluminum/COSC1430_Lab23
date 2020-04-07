@@ -9,7 +9,7 @@ private:
     int waypoint_max;
   
 public:
-    FlightComputer(int waypoint_max) 
+    FlightComputer(int waypoint_max = 0) 
     { 
         this->waypoint_max = waypoint_max; 
     }
