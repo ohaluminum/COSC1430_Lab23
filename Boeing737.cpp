@@ -5,7 +5,7 @@
  *Define a constructor that takes in an int for waypoint_max.
  *Make sure to call FlightComputer's constructor during this constructor's definition in Boeing737.cpp.
  */
-Boeing737::Boeing737(int waypoint_max = 0) : FlightComputer(waypoint_max)
+Boeing737::Boeing737(int waypoint_max) : FlightComputer(waypoint_max)
 {
     waypoints = new string[waypoint_max];
 }
